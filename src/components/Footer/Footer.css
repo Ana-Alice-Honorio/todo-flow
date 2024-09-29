@@ -1,0 +1,13 @@
+footer {
+  background: #7195fd;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer h1 {
+  font-size: 20px;
+}

@@ -1,9 +1,10 @@
 import React from "react";
 import Tarefa from "../Task/Task.js";
+import "./List.css";
 
 function ListTask({ tarefas, onRemoveTask }) {
   return (
-    <ul>
+    <div className="list">
       {tarefas.map((tarefa, index) => (
         <Tarefa
           key={index}
@@ -11,7 +12,7 @@ function ListTask({ tarefas, onRemoveTask }) {
           onRemover={() => onRemoveTask(index)}
         />
       ))}
-    </ul>
+    </div>
   );
 }
 

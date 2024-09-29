@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import FormTask from "./components/Form/Form.js";
 import ListTask from "./components/List/List.js";
 import Card from "./components/Card/Card.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   const [tarefas, setTarefas] = useState([]);
@@ -21,12 +22,15 @@ function App() {
       <header className="App-header">
         <h1>Todo Flow</h1>
       </header>
-      <Card>
-        <FormTask onAddNewTask={addTask} />
-      </Card>
-      <Card>
-        <ListTask tarefas={tarefas} onRemoveTask={removeTask} />
-      </Card>
+      <div className="main-content">
+        <Card>
+          <FormTask onAddNewTask={addTask} />
+        </Card>
+        <Card>
+          <ListTask tarefas={tarefas} onRemoveTask={removeTask} />
+        </Card>
+      </div>
+      <Footer />
     </div>
   );
 }

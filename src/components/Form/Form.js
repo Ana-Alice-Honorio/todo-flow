@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Form.css";
 
 function FormTask({ onAddNewTask }) {
   const [newTask, setNovaTarefa] = useState("");
@@ -17,7 +18,7 @@ function FormTask({ onAddNewTask }) {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        value={newTask }
+        value={newTask}
         onChange={(e) => setNovaTarefa(e.target.value)}
         placeholder="Nova tarefa"
       />

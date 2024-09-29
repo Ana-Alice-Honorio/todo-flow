@@ -1,5 +1,7 @@
 # 📝Todo Flow
 
+![todo flow](./public/todo-task.png)
+
 ## 💻 Sobre o projeto
 
 📄 Todo Flow é um projeto de lista de tarefas
@@ -8,10 +10,10 @@
 
 ## ⚙️ Funcionalidades
 
-- [] Página inicial:
-  - [] Input com botão de adicionarFormulário de criação de tarefa
-  - [] É possível criar uma listagem de tarefas
-  - [] É possível exclusão de tarefa
+- [x] Página inicial:
+  - [x] Input com botão de adicionarFormulário de criação de tarefa
+  - [x] É possível criar uma listagem de tarefas
+  - [x] É possível exclusão de tarefa
 
 ### Tecnologias usadas:
 
@@ -59,3 +61,4 @@ npm run build
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Ícones: **[Emoji para copiar](https://www.invertexto.com/emojis-para-copiar)**
 - Cores e estilos: **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+- Paleta: **[Cores](https://paletadecores.com/paleta/7195fd/8caefe/a7c7fe/c2dfff/ddf8ff/)**
