@@ -1,11 +1,11 @@
 import React from "react";
 import "./Task.css";
 
-function Tarefa({ tarefa, onRemover }) {
+function Tarefa({ tarefa, onRemove }) {
   return (
     <div className="task">
       <span> {tarefa}</span>
-      <button onClick={onRemover}>Remover</button>
+      <button onClick={onRemove}>Remover</button>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function ListTask({ tarefas, onRemoveTask }) {
         <Tarefa
           key={index}
           tarefa={tarefa}
-          onRemover={() => onRemoveTask(index)}
+          onRemove={() => onRemoveTask(index)}
         />
       ))}
     </div>
